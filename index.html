@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Takshilla Classes</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1 id="title" class="text-center">Takshilla Classes FeedBack Form</h1>
+        <p id="description" class="description text-center">
+          The success of education is achieved through gaining complete command over anything that deludes the brain from taking the right decision and doing the right thing
+        -'Chanakya'.
+        </p>
+          <form id="Feedback-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter your name"
+
+      </div>
+      <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter your Email"
+      </div>
+      <div class="form-group">
+      <label id="number-label" for="number"
+        >Age<span class="clue"></span></label
+      >
+      <input
+        type="number"
+        name="age"
+        id="number"
+        min="16"
+        max="42"
+        class="form-control"
+        placeholder="Age"
+      />
+
+    <div class="form-group">
+      <p>Career Options After XII </p>
+      <select id="dropdown" name="career" class="form-control" required>
+        <option disabled selected value>Career</option>
+        <option value="Engineering">Engineering</option>
+        <option value="Medicine">Medicine</option>
+        <option value="Defence">Defence</option>
+        <option value="Law">Law</option>
+        <option value="Fasion Design">Fasion Design </option>
+        <option value="Architecture">Architecture</option>
+        <option value="Others">Others</option>
+      </select>
+    </div>
+    <div class="form-group">
+      <p>Career Options After Graduation </p>
+      <select id="dropdown" name="career" class="form-control" required>
+        <option disabled selected value>Career</option>
+        <option value="Civil Services/State-Civil Services">Civil Services/State-Civil Services</option>
+        <option value="Defence">Defence</option>
+        <option value="lectureship">lectureship</option>
+        <option value="Banks">Banks </option>
+        <option value="Staff Selection Commission">Staff Selection Commission</option>
+        <option value="Others">Other</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>
+        The Class/Classes You liked The Most?
+      </p>
+      <select id="most-like" name="mostLike" class="form-control" required>
+        <option disabled selected value>Select an option</option>
+        <option value="Biological Sciences">Biological Sciences</option>
+        <option value="Physical Sciences">Physical Sciences</option>
+        <option value="Chemical Sciences">Chemical Sciences</option>
+        <option value="Mathematics">Mathematics</option>
+        <option value="Reasoning">Reasoning</option>
+        <option value="Data Interpetation">Data Interpetation</option>
+        <option value="Commerce">Commerce</option>
+        <option value="Humanities">Humanities</option>
+
+      </select>
+    </div>
+    <div class="form-group">
+    <label id="Faculty-Rating" for="number"
+      >Faculty Rating<span class="clue"></span></label
+    >
+    <input
+      type="number"
+      name="Faculty"
+      id="number"
+      min="01"
+      max="10"
+      class="form-control"
+      placeholder="Faculty Rating"
+    <div class="form-group">
+      <p>
+        Areas Where Should Improve Upon?
+        <span class="clue">(Check all that apply)</span>
+      </p>
+
+      <label
+        ><input
+          name="prefer"
+          value="Content"
+          type="checkbox"
+          class="input-checkbox"
+        />Content</label
+      >
+      <label>
+        <input
+          name="prefer"
+          value="Teaching methodology"
+          type="checkbox"
+          class="input-checkbox"
+        />Teaching Methodology</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Class Interaction"
+          type="checkbox"
+          class="input-checkbox"
+        />Class Interaction</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Language"
+          type="checkbox"
+          class="input-checkbox"
+        />Language</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Classheets"
+          type="checkbox"
+          class="input-checkbox"
+        />Classheets</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Presentation"
+          type="checkbox"
+          class="input-checkbox"
+        />Presentation</label
+      >
+      <label
+        ><input
+          name="prefer"
+          value="Timings"
+          type="checkbox"
+          class="input-checkbox"
+        />Timings</label
+      >
+      <div class="form-group">
+        <p>Would you recommend Our Institution</p>
+        <label>
+          <input
+            name="user-recommend"
+            value="Yes"
+            type="radio"
+            class="input-radio"
+            checked
+          />Yes</label
+        >
+        <label>
+          <input
+            name="user-recommend"
+            value="No"
+            type="radio"
+            class="input-radio"
+          />No</label
+        >
+
+        <label
+          ><input
+            name="user-recommend"
+            value="Can't Say"
+            type="radio"
+            class="input-radio"
+          />Can't Say</label
+        <div class="form-group">
+      <p>Any comments or suggestions?</p>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+      <h2>Thankyou For The Feedback</h2>
+    </div>
+  </form>
+</div>
+      </header>
+  </body>
+</html>
